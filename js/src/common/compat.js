@@ -72,6 +72,7 @@ import userOnline from './helpers/userOnline';
 import listItems from './helpers/listItems';
 import Fragment from './Fragment';
 import DefaultResolver from './resolvers/DefaultResolver';
+import PaginatedListState from './states/PaginatedListState';
 
 export default {
   extend: extend,
@@ -148,4 +149,5 @@ export default {
   'helpers/userOnline': userOnline,
   'helpers/listItems': listItems,
   'resolvers/DefaultResolver': DefaultResolver,
+  'states/PaginatedListState': PaginatedListState,
 };
