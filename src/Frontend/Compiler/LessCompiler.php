@@ -89,6 +89,6 @@ class LessCompiler extends RevisionCompiler
      */
     protected function getCacheDifferentiator()
     {
-        return time();
+        return getenv('BUILD_ID');
     }
 }
